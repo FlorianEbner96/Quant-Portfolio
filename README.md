@@ -7,7 +7,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
 ![SciPy](https://img.shields.io/badge/SciPy-1.10%2B-8CAAE6?logo=scipy)
   
-Quantitative risk portfolio, covering Monte Carlo simulation, portfolio optimization, and a comprehensive quant finance reference spanning 30+ concepts — from Basel III market risk to factor models and backtesting methodology.
+Quantitative risk portfolio, covering Monte Carlo simulation, portfolio optimization, and a comprehensive quant finance reference spanning 20+ concepts — from Basel III market risk to factor models and backtesting methodology.
 
 Built as a self-study and portfolio project in preparation for **Quantitative Risk Analyst** and **AI/ML in Finance** roles.
 
