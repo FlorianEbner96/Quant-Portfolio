@@ -2,7 +2,7 @@
 
 ## Overview
 
-A structured reference covering **30+ quantitative finance concepts** — each with formal mathematical derivations, Python implementations, and visualisations. Built as a self-study resource for myself in order to prepare for Quantitative Risk Analyst roles.
+A structured reference covering **20+ quantitative finance concepts** — each with formal mathematical derivations, Python implementations, and visualisations. Built as a self-study resource for myself in order to prepare for Quantitative Risk Analyst roles.
 
 ## Modules
 
