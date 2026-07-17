@@ -7,7 +7,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
 ![SciPy](https://img.shields.io/badge/SciPy-1.10%2B-8CAAE6?logo=scipy)
   
-Quantitative portfolio, covering Monte Carlo simulation, portfolio optimization, and a comprehensive quant finance reference spanning 20+ concepts — from Basel III market risk to factor models and backtesting methodology.
+Quantitative portfolio, covering Monte Carlo simulation, portfolio optimization, and a comprehensive quant finance reference spanning **10 notebooks and 40+ concepts** — from Basel III market risk and factor models to rebalancing, tax optimization, convex optimization, and robo-advisor system design.
 
 Built as a self-study and portfolio project in preparation for **Quantitative Development** and **AI/ML in Finance** roles.
 
@@ -19,7 +19,7 @@ Built as a self-study and portfolio project in preparation for **Quantitative De
 |--------|-------|-------------|
 | [`MonteCarloVAR`](./MonteCarloVAR/) | Market Risk – VaR & CVaR | Monte Carlo, Cholesky, Kupiec Backtest |
 | [`PortfolioOptimization`](./PortfolioOptimization/) | Portfolio Construction | Markowitz, Risk Parity, Efficient Frontier |
-| [`QuantFinanceLearningNBs`](./QuantFinanceLearningNBs/) | Quant Finance Reference | 20+ concepts, theory + code |
+| [`QuantFinanceLearningNBs`](./QuantFinanceLearningNBs/) | Quant Finance Reference | 10 notebooks, 40+ concepts, theory + code |
 
 ---
 
@@ -42,12 +42,23 @@ Built as a self-study and portfolio project in preparation for **Quantitative De
 - Risk contribution decomposition across all strategies
 
 ### 03 · Quant Finance Learning Notebooks
-Three structured reference notebooks covering:
-- **Module 1:** Returns, volatility, correlation, drawdown, leverage, beta/alpha, Fama-French
-- **Module 2:** Sharpe, Sortino, Information Ratio, CAPM, VaR/CVaR theory, MPT & Black-Litterman
-- **Module 3:** Mean reversion, momentum, pairs trading (cointegration), backtesting biases, transaction costs, fixed income, corporate actions
+**Ten** structured reference notebooks — the original three learning modules (`01`–`03`) plus **seven new quant-developer / robo-advisor notebooks** (`04`–`10`).
 
-Each notebook includes formal mathematical derivations, Python implementations, visualizations, and academic references.
+Original learning modules:
+- **Module 1 — Market Fundamentals:** Returns, volatility, correlation, drawdown, leverage, beta/alpha, Fama-French
+- **Module 2 — Risk Measures & MPT:** Sharpe, Sortino, Information Ratio, CAPM, VaR/CVaR theory, MPT & Black-Litterman
+- **Module 3 — Strategies & Backtesting:** Mean reversion, momentum, pairs trading (cointegration), backtesting biases, transaction costs, fixed income, corporate actions
+
+New quant-developer track:
+- **04 — Portfolio Management Fundamentals:** MVO & efficient frontier, applied CAPM, Black-Litterman, Ledoit-Wolf shrinkage, risk parity
+- **05 — Rebalancing Deep Dive:** Calendar / threshold / cash-flow triggers, transaction-cost taxonomy, rebalancing as convex optimization, production scaling
+- **06 — Risk Models:** EWMA & GARCH(1,1), covariance estimation, PCA / macro factor models, tail risk, stress testing
+- **07 — Tax Optimization:** German capital-gains reference, tax-lot accounting as an LP, tax-loss harvesting, pan-European landscape
+- **08 — Convex Optimization:** Convexity, LP/QP/SOCP/SDP taxonomy, KKT conditions, cvxpy in production
+- **09 — System Design & Interview Mastery:** End-to-end robo-advisor architecture, rebalancing pipeline, database design, whiteboarding
+- **10 — Python & Tech-Stack Cheat Sheet:** Python/NumPy/pandas patterns, production cvxpy, testing, SQL, Docker / CI-CD / AWS / Terraform
+
+To avoid redundancy, the new notebooks cross-reference the originals rather than re-deriving shared theory (returns, CAPM, VaR/CVaR coherence). Each notebook includes formal mathematical derivations, Python implementations, visualizations, and academic references.
 
 ---
 
@@ -111,8 +122,15 @@ Quant-Risk-Portfolio/
 │
 └── QuantFinanceLearningNBs/
     ├── quant_finance_01_market_fundamentals.ipynb
-    ├── quant_finance_02_risk_measures_mpt.ipynbb
+    ├── quant_finance_02_risk_measures_mpt.ipynb
     ├── quant_finance_03_strategies_backtesting.ipynb
+    ├── quant_finance_04_portfolio_management_fundamentals.ipynb
+    ├── quant_finance_05_rebalancing_deep_dive.ipynb
+    ├── quant_finance_06_risk_models.ipynb
+    ├── quant_finance_07_tax_optimization.ipynb
+    ├── quant_finance_08_convex_optimization.ipynb
+    ├── quant_finance_09_system_design_interview.ipynb
+    ├── quant_finance_10_python_techstack_cheatsheet.ipynb
     └── README.md
 ```
 
